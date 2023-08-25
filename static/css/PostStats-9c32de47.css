@@ -41,7 +41,6 @@ code[class*='language-']::selection,
 code[class*='language-'] ::selection {
     color: inherit;
     background: #a599e9;
-    /* background: #282c34; */
 }
 
 /* Code blocks. */
@@ -53,8 +52,7 @@ pre[class*='language-'] {
 
 :not(pre)>code[class*='language-'],
 pre[class*='language-'] {
-    /* background: #1e1e3f; */
-    background: #282c34;
+    background: #1e1e3f;
 }
 
 /* Inline code */
@@ -70,7 +68,8 @@ pre[class*='language-'] {
 .token.comment,
 .token.prolog,
 .token.cdata {
-    color: #b362ff;
+    /* color: #b362ff; */
+    color: #80848d;
 }
 
 .token.delimiter,
